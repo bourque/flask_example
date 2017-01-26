@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Pretty Pictures</h1>
+
+<h2>Nebulae:</h2>
+
+    {% for item in image_dict.nebulae %}
+        <img src="/../{{item}}">
+    {% endfor %}
+
+<h2>Planets:</h2>
+
+    {% for item in image_dict.planets %}
+        <img src="/../{{item}}">
+    {% endfor %}
+
+<h2>Comets:</h2>
+
+    {% for item in image_dict.comets %}
+        <img src="/../{{item}}">
+    {% endfor %}
+
+</body>
+</html>
